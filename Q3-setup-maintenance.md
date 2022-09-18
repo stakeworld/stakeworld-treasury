@@ -12,14 +12,17 @@ In juli 2022 STAKEWORLD started a paritydb snapshot service to provide an extra 
 ## Context/problem/solution
 
 ### Snapshot service
-While setting up nodes for STAKEWORLD's services we often used snapshot services like polkachu or polkashots. Sometimes for testing or setting up a new node, also in the case of a database corruption or other problems a quick database restore is needed. While using these services there where some problems like non working links or slow connections. From the ideas of decentralisation and strengthening the ecosystem through multiple providers we thought it would be beneficial to add an extra service. Also in the thousand validators group, in which we participate, it is encouraged to provide services to the community, like snapshot services, rpc servers, etc. 
+While setting up nodes for STAKEWORLD's services we often used snapshot services like polkachu or polkashots. Sometimes for testing or setting up a new node, also in the case of a database corruption or other problems a quick database restore is needed. While using these services there where some problems like non working links or slow connections. From the ideas of decentralisation and strengthening the ecosystem through multiple providers we thought it would be beneficial to add an extra [snapshot service](https://stakeworld.nl/docs/snapshot). Also in the thousand validators group, in which we participate, it is encouraged to provide services to the community, like snapshot services, rpc servers, etc. 
 
-In the beginning we also included rocksdb in the snapshot service but to reduce space and for simplicity at this moment only paritydb format is offered. Although not yet being the standard, we believe this will be the standard in the future.
+In the beginning we also included rocksdb in the snapshot service but to reduce space and for simplicity at this moment only paritydb format is offered. Although not yet being the standard, we believe this will be the standard in the future. 
+
+### Database size history
+We also keep track of the database sizes and represent that in a graph. 
 
 ![website](snapshot-website.png)
 
 ### Install/restore script
-There are ansible scripts for installing a node but we think a simple one-line install script is more attractive so we also added an easy installer script which can restore a database, or even can install a complete node including snapshot with a simple command line installer. [Example](https://stakeworld.nl/docs/validate)
+There are ansible scripts for installing a node but we think a simple one-line install script is more attractive so we also added an easy installer script which can restore a database, or even can install a complete node including snapshot with a simple command line installer. 
 
 ```bash
 curl -o- -L https://raw.githubusercontent.com/stakeworld/stakeworld-scripts/master/node-install.sh | bash
@@ -27,14 +30,11 @@ curl -o- -L https://raw.githubusercontent.com/stakeworld/stakeworld-scripts/mast
 
 ![node-install](node-install.gif)
 
-### Database size history
-We also keep track of the database sizes and represent that in a graph. [Example](https://stakeworld.nl/docs/snapshot)
-
 ### Open source
 All the scripts and website sources are open source. [Github](https://github.com/stakeworld/)
 
 ## Technical
-The snapshot service is hosted on a dedicated server in Finland, with unlimited traffic and a 1 GB network link. The server is monitored for (db) errors, network problems and other issues and every day the database is compressed and saved with an [open source script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). The script also registers blockheight, full and compressed datasizes, puts them in a text file and creates a gnuplot image and puts it all on the [website](https://stakeworld.nl/snapshot).
+The snapshot service is hosted on a dedicated server in Finland, with unlimited traffic, RAID protection and a 1 GB network link. The server is monitored for (db) errors, network problems and other issues and every day the database is compressed and saved with an [open source script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). The script also registers blockheight, full and compressed datasizes, puts them in a text file and creates a gnuplot image and puts it all on the [website](https://stakeworld.nl/snapshot).
 
 Rocksdb support is included in the script but for now not used. 
 
