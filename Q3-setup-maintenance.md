@@ -14,12 +14,17 @@ While setting up nodes for STAKEWORLD's services we often used snapshot services
 
 In the beginning we also included rocksdb in the snapshot service but to reduce space and for simplicity at this moment only paritydb format is offered. Although not yet being the standard, we believe this will be the standard in the future.
 
+![website](snapshot-website.png)
+
 ### Install/restore script
 There are ansible scripts for installing a node but we think a simple one-line install script is more attractive so we also added an easy installer script which can restore a database, or even can install a complete node including snapshot with a simple command line installer. [Example](https://stakeworld.nl/docs/validate)
 
 ```bash
 curl -o- -L https://raw.githubusercontent.com/stakeworld/stakeworld-scripts/master/node-install.sh | bash
 ```
+
+![node-install](node-install.gif)
+
 ### Database size history
 We also keep track of the database sizes and represent that in a graph. [Example](https://stakeworld.nl/docs/snapshot)
 
@@ -33,6 +38,8 @@ Rocksdb support is included in the script but for now not used.
 
 ## Usage
 Due to a new server the download logfiles are available starting from 27/08/2022. Parsing the log files and excluding our own ip's in the last month there were 7 unique visitors downloading the polkadot snapshot and 10 unique visitors downloading the kusama snapshot.
+
+![usage](usage.png)
 
 ## Publicity
 Main publicity is through the kusama and polkadot validator pages on element. We try to drop the snapshot website or install script when there are questions with a relation to this and are actively participating on these forums.  
