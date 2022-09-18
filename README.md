@@ -1,1 +1,2 @@
-# stakeworld-treasury
+# STAKEWORLD Treasury
+Treasury propasals of STAKEWORLD.
