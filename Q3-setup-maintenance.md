@@ -1,7 +1,9 @@
 # Proposal: STAKEWORLD snapshot/install service setup and maintenance Q3
 
 Proponent: Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9 (identity: STAKEWORLD)
+
 Date: 28.09.2022
+
 Requested KSM: 51 KSM (to be updated at submission)
 
 ## Description
@@ -64,9 +66,11 @@ Hours are included at a 80 EUR/hour rate.
 | Item                  | Cost                   |
 | ------------          | -----------------------|
 | Initial server setup, website and script setup | 20 h x 80 EUR = 1600 EUR            |
-| Maintenance           | 3 months x 4 h x 80 eur = 960 EUR  |
-| Finetuning/script updates    | 3 months x 2 h x 80 eur = 480      |
+| Maintenance           | 3 months x 4 h x 80 EUR = 960 EUR  |
+| Finetuning/script updates    | 3 months x 2 h x 80 EUR = 480 EUR     |
 | Server rent		| 3 months x 72 EUR = 216 EUR |
-| TOTAL                 | EUR = 3256 -> [EMA30](https://kusama.subscan.io/tools/charts?type=price) 65 KSM |
+| TOTAL                 | EUR = 3256 -> ([EMA30](https://kusama.subscan.io/tools/charts?type=price) on submission date) 65 KSM |
 | tips			| -14 KSM |
 | REQUEST		| 51 KSM |
+
+For simplicity treasury requests for our services will only be done on kusama.
