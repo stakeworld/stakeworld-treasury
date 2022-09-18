@@ -7,7 +7,7 @@ Date: 28.09.2022
 Requested KSM: 51 KSM (to be updated at submission)
 
 ## Description
-In juli 2022 STAKEWORLD started a paritydb snapshot service to provide an extra service to the kusama/polkadot community. Originally it was only a snapshot service, recently an easy polkadot node install script and snapshot restore script were added, alongside a database size tracker on the website.
+In juli 2022 STAKEWORLD started a paritydb snapshot service to provide an extra service to the kusama/polkadot community. Originally it was only a snapshot service, later an easy polkadot node install script and snapshot restore script were added, alongside a database size tracker on the website.
 
 ## Context/problem/solution
 
