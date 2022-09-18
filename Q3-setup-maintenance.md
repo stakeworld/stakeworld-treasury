@@ -65,3 +65,5 @@ Hours are included at a 80 EUR/hour rate.
 | TOTAL                 | EUR = 3256 -> ([EMA30](https://kusama.subscan.io/tools/charts?type=price) on submission date) 65 KSM |
 | tips			| -14 KSM |
 | REQUEST		| 51 KSM |
+
+For simplicity treasury requests for our services will only be done on kusama.
