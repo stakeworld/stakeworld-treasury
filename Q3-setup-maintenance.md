@@ -46,7 +46,7 @@ Due to a new server the download logfiles are available starting from 27/08/2022
 ## Publicity
 Main publicity is through the kusama and polkadot validator pages on element. We try to drop the snapshot website or install script when there are questions with a relation to this and are actively participating on these forums.  
 
-Also we made a wiki pull request to include ourself in the snapshot providers on the [how-to-validate](https://guide.kusama.network/docs/maintain-guides-how-to-validate-polkadot/) wiki page.
+Also we made a wiki pull request to include ourself in the snapshot providers on the [how-to-validate](https://guide.kusama.network/docs/maintain-guides-how-to-validate-polkadot/) wiki page, which was accepted and is now online.
 
 The website is SEO friendly and is findable in google searches, although not as high as longer existing snapshot providers. Hopefully the rank will increase in the future.
 
