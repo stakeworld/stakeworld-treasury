@@ -1,7 +1,9 @@
 # Proposal: STAKEWORLD snapshot/install service setup and maintenance Q3
 
 Proponent: Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9 (identity: STAKEWORLD)
+
 Date: 28.09.2022
+
 Requested KSM: 51 KSM (to be updated at submission)
 
 ## Description
