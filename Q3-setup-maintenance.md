@@ -31,10 +31,10 @@ curl -o- -L https://raw.githubusercontent.com/stakeworld/stakeworld-scripts/mast
 ![node-install](node-install.gif)
 
 ### Open source
-All the scripts and website sources are open source. [Github](https://github.com/stakeworld/)
+All the scripts and website sources are [open sourced on github](https://github.com/stakeworld/)
 
 ## Technical
-The snapshot service is hosted on a dedicated server in Finland, with unlimited traffic, RAID protection and a 1 GB network link. The server is monitored for (db) errors, network problems and other issues and every day the database is compressed and saved with an [open source script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). The script also registers blockheight, full and compressed datasizes, puts them in a text file and creates a gnuplot image and puts it all on the [website](https://stakeworld.nl/snapshot).
+The snapshot service is hosted on a dedicated server in Finland, with unlimited traffic, RAID protection and a 1 GB network link. The server is monitored for (db) errors, network problems and other issues and every day the database is compressed and saved with an [open source crontab script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). The script also registers blockheight, full and compressed datasizes, creates a gnuplot image and puts it all on the [website](https://stakeworld.nl/snapshot).
 
 Rocksdb support is included in the script but for now not used. 
 
