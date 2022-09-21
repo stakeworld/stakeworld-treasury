@@ -2,9 +2,9 @@
 
 Proponent: Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9 (identity: STAKEWORLD)
 
-Date: 19.09.2022
+Date: 21.09.2022
 
-Requested KSM: 51 KSM 
+Requested KSM: 62 KSM 
 
 ## Description
 In juli 2022 STAKEWORLD started a paritydb snapshot service to provide an extra service to the kusama/polkadot community. Originally it was only a snapshot service, later an easy polkadot node install script and snapshot restore script were added, alongside a database size tracker on the website.
