@@ -69,8 +69,8 @@ Hours are included at a 80 EUR/hour rate.
 | Maintenance           | 3 months x 4 h x 80 EUR = 960 EUR  |
 | Finetuning/script updates    | 3 months x 2 h x 80 EUR = 480 EUR     |
 | Server rent		| 3 months x 72 EUR = 216 EUR |
-| TOTAL                 | EUR = 3256 -> ([EMA30](https://kusama.subscan.io/tools/charts?type=price) on submission date) 65 KSM |
-| tips			| -14 KSM |
-| REQUEST		| 51 KSM |
+| TOTAL                 | EUR = 3256 -> [/42.5 (=EMA7)](https://kusama.subscan.io/tools/charts?type=price) = 76 KSM |
+| earlier tips			| -14 KSM |
+| REQUEST		| 62 KSM |
 
 For simplicity treasury requests for our services will only be done on kusama.
