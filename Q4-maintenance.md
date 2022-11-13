@@ -2,9 +2,9 @@
 
 Proponent: Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9 (identity: STAKEWORLD)
 
-Date: 12.11.2022
+Date: 13.11.2022
 
-Requested KSM: 66 KSM 
+Requested KSM: 69 KSM 
 
 ## Description
 This request is a continuation of [2022 Q3 Setup and maintenance Kusama Treasury Proposal](/Q3-setup-maintenance.md) (which was also submitted as a [tip](https://www.dotreasury.com/ksm/tips/14550098_0xbc345c7e0c82f5c59b9b4dd54037c9efbaed56cefe8cc0bb12c741bc5148e727) as adviced by the council) and asks funding for hosting and maintenance of STAKEWORLD's snapshot service.
@@ -63,9 +63,9 @@ Hours are included at a 80 EUR/hour rate.
 | Item                  | Cost                   |
 | ------------          | -----------------------|
 | Maintenance           | 3 months x 4 h x 80 EUR = 960 EUR  |
-| Finetuning/script updates    | 3 months x 2 h x 80 EUR = 480 EUR     |
-| Server rent		| 3 months x 140 EUR = 420 EUR |
-| TOTAL                 | EUR = 1860 -> USD 1928 [/29.1 (=EMA7)](https://kusama.subscan.io/tools/charts?type=price) = 66 KSM |
-| REQUEST		| 66 KSM |
+| Updates               | 3 months x 2 h x 80 EUR = 480 EUR     |
+| Server rent		        | 3 months x 140 EUR = 420 EUR |
+| TOTAL                 | EUR = 1860 / 0.964 -> USD 1929 [/27.9 (=EMA7)](https://kusama.subscan.io/tools/charts?type=price) = 69 KSM |
+| REQUEST		            | 69 KSM |
 
 For simplicity treasury requests for our services will only be done on kusama.
