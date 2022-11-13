@@ -13,7 +13,6 @@ This request is a continuation of [2022 Q3 Setup and maintenance Kusama Treasury
 
 ### Snapshot service
 While setting up nodes for STAKEWORLD's services we often used snapshot services like polkachu or polkashots. Sometimes for testing or setting up a new node, also in the case of a database corruption or other problems a quick database restore is needed. While using these services there where some problems like non working links or slow connections. From the ideas of decentralisation and strengthening the ecosystem through multiple providers we thought it would be beneficial to add an extra [snapshot service](https://stakeworld.nl/snapshot). Also in the thousand validators group, in which we participate, it is encouraged to provide services to the community, like snapshot services, rpc nodes, etc. 
-![website](Q4-snapshot-website.png)
 
 ### Install/restore script
 There are ansible scripts for installing a node but we think a simple one-line install script is more attractive so we also added an easy installer script which can restore a database, or even can install a complete node including snapshot with a simple command line installer. 
@@ -29,6 +28,8 @@ All the scripts and website sources are [open sourced on github](https://github.
 
 ## Technical
 The snapshot service is hosted on a dedicated server, with unlimited traffic, RAID protection and a 1 Gbit network link. We upgraded our service because of the higher demands after including the rocksdb snapshots. The server is monitored for (db) errors, network problems and other issues and every day the database is compressed and saved with an [open source crontab script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). Occasionaly we start with a freshly synced database to reduce disk space an prevent errors. The script also registers blockheight, full and compressed datasizes, creates a gnuplot image and puts it all on the [website](https://stakeworld.nl/snapshot).
+
+![website](Q4-snapshot-website.png)
 
 ## Usage
 Parsing the log files and excluding our own ip's in the period 27/AUG/2022 — 10/NOV/2022 the following usage was observed:
