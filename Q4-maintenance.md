@@ -33,8 +33,9 @@ The snapshot service is hosted on a dedicated server, with unlimited traffic, RA
 ## Usage
 Parsing the log files and excluding our own ip's in the period 27/AUG/2022 — 10/NOV/2022 the following usage was observed:
 
-![usage](Q4-usage.png)
 ![usagegraph](Q4-usage-graph.png)
+![usage](Q4-usage.png)
+
 
 ## Publicity
 Main publicity is through the kusama and polkadot validator pages on element. We try to drop the snapshot website or install script when there are questions with a relation to this and are actively participating on these forums.  
