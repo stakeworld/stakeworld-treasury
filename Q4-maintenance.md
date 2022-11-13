@@ -45,7 +45,7 @@ Also we made a wiki pull request to include ourself in the snapshot providers on
 The website is SEO friendly, findable in google searches and slowly increasing in rank.
 
 ## Future
-We will continue with this service and are [exploring](https://github.com/polkadot-js/apps/pull/8227) setting up [https://stakeworld.nl/docs/rpc](public RPC node's for kusama and polkadot).
+We will continue with this service and are [exploring](https://github.com/polkadot-js/apps/pull/8227) setting up [public RPC node's for kusama and polkadot](https://stakeworld.nl/docs/rpc).
 
 ## Financial
 
