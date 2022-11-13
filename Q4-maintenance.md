@@ -33,7 +33,6 @@ The snapshot service is hosted on a dedicated server, with unlimited traffic, RA
 ## Usage
 Parsing the log files and excluding our own ip's in the period 27/AUG/2022 — 10/NOV/2022 the following usage was observed:
 
-![usagegraph](Q4-usage-graph.png)
 ![usage](Q4-usage.png)
 
 
