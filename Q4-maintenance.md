@@ -7,7 +7,7 @@ Date: 12.11.2022
 Requested KSM: 66 KSM 
 
 ## Description
-This request is a continuation of [2022 Q3 Setup and maintenance Kusama Treasury Proposal](/Q3-setup-maintenance.md) (which was also submitted as a [tip](https://www.dotreasury.com/ksm/tips/14550098_0xbc345c7e0c82f5c59b9b4dd54037c9efbaed56cefe8cc0bb12c741bc5148e727) as adviced by the council) and asks for funding for hosting and maintenance of STAKEWORLD's snapshot service.
+This request is a continuation of [2022 Q3 Setup and maintenance Kusama Treasury Proposal](/Q3-setup-maintenance.md) (which was also submitted as a [tip](https://www.dotreasury.com/ksm/tips/14550098_0xbc345c7e0c82f5c59b9b4dd54037c9efbaed56cefe8cc0bb12c741bc5148e727) as adviced by the council) and asks funding for hosting and maintenance of STAKEWORLD's snapshot service.
 
 ## Context/problem/solution
 
