@@ -13,7 +13,7 @@ This request is a continuation of [2022 Q3 Setup and maintenance Kusama Treasury
 
 ### Snapshot service
 While setting up nodes for STAKEWORLD's services we often used snapshot services like polkachu or polkashots. Sometimes for testing or setting up a new node, also in the case of a database corruption or other problems a quick database restore is needed. While using these services there where some problems like non working links or slow connections. From the ideas of decentralisation and strengthening the ecosystem through multiple providers we thought it would be beneficial to add an extra [snapshot service](https://stakeworld.nl/snapshot). Also in the thousand validators group, in which we participate, it is encouraged to provide services to the community, like snapshot services, rpc nodes, etc. 
-![website](snapshot-website.png)
+![website](Q4-snapshot-website.png)
 
 ### Install/restore script
 There are ansible scripts for installing a node but we think a simple one-line install script is more attractive so we also added an easy installer script which can restore a database, or even can install a complete node including snapshot with a simple command line installer. 
