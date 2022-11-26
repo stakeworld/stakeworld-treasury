@@ -7,7 +7,7 @@ Date: 24.11.2022
 Requested KSM: 58 KSM 
 
 ## Description
-This request is for funding first setup and maintenace of stakeworld RPC services for kusama and polkadot. We are proposing it as a tip just like the [snapshot service](/Q3-setup-maintenance.md) which was also submitted as a tip (as adviced by the council).
+This request is for funding first setup and maintenace of stakeworld RPC services for kusama and polkadot. We originally proposed it as a tip just like the [snapshot service](/Q3-setup-maintenance.md) which was also submitted as a tip (as adviced by the council) but since the Gov2 became active switched it to a request in the "Infrastructure maintenance bounty". 
 
 ## Context/problem/solution
 
