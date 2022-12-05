@@ -12,7 +12,7 @@ This request is for funding maintenace of stakeworld RPC services for kusama and
 ## Context/problem/solution
 
 ### RPC nodes
-RPC nodes are an essential part of the kusama/polkadot ecosystem since they give the possibility to interact with the chain. STAKEWORLD has been running 2 (pruned) public RPC servers ([dot.rpc.stakeworld.nl](http://dot.rpc.stakeworld.nl/) and [ksm.rpc.stakeworld.nl](http://ksm.rpc.stakeworld.nl/)) for a while now which were originally deployed for internal use and according to the logs also have found their way to some public use. We created a [pull request](https://github.com/polkadot-js/apps/pull/8227) for inclusion in the polkadot.js app but after reviewing earlier pulls, commits and remarks concluded that a full node was required so started setting up two full archive RPC nodes. 
+RPC nodes are an essential part of the kusama/polkadot ecosystem since they give the possibility to interact with the chain. STAKEWORLD has been running 2 (pruned) public RPC servers ([dot.rpc.stakeworld.nl](http://dot.rpc.stakeworld.nl/) and [ksm.rpc.stakeworld.nl](http://ksm.rpc.stakeworld.nl/)) for a while now which were originally deployed for internal use and according to the logs also have found their way to some public use. We created a [pull request](https://github.com/polkadot-js/apps/pull/8227) for inclusion in the polkadot.js app but after reviewing earlier pulls, commits and remarks concluded that a full node was required so started setting up two full archive RPC nodes on high end hardware. We did some stress testing and finetuning and updated our [pull request](https://github.com/polkadot-js/apps/pull/8227) with updated info.  
 
 ## Technical
 The RPC services are hosted on a high end dedicated server with nvme disk, 128Gb memory, unlimited network traffic on a 1 Gbit network link with nodes running in archive mode (`--state-pruning archive --blocks-pruning archive`). 
@@ -33,7 +33,7 @@ For example a test run asking the current block and hash with 25 connections per
 Other server parameters like systemload, iowait and memory usage were monitored during test but were all within normal parameters. 
  
 ## Publicity
-There was some exposure through the kusama and polkadot validator pages on element and we are trying to include it on the polkadot.js website, getting selected from there and thus strengthening the dotsama ecosystem.
+There was some exposure through the kusama and polkadot validator pages on element and we are trying to include it on the polkadot.js website ([pull request](https://github.com/polkadot-js/apps/pull/8227)), getting selected from there and thus strengthening the dotsama ecosystem.
 
 ## Financial
 
