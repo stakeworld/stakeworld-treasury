@@ -17,7 +17,7 @@ RPC nodes are an essential part of the kusama/polkadot ecosystem since they give
 ## Technical
 The RPC services are hosted on a high end dedicated server with nvme disk, 128Gb memory, unlimited network traffic on a 1 Gbit network link with nodes running in archive mode (`--state-pruning archive --blocks-pruning archive`). 
 
-System and logs are monitored for errors, network problems and other issues. At this moment a pruned rpc service can quickly be deployed as backup in the case of failure of the main rpc. If funding allows we will setup more full nodes to create better fault tolerance and load balancing. 
+System and logs are monitored for errors, network problems and other issues. Full archive backup nodes are available and can quickly be deployed as backup in the case of failure of the main rpc. If funding allows we will setup more full nodes to create better fault tolerance and load balancing. 
 
 ## Metrics & stress testing
 Grafana gives us some information about usage, at the moment mainly internal and testing use since the service is not yet very known. 
