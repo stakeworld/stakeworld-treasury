@@ -2,9 +2,7 @@
 
 Proponent: Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9 (identity: STAKEWORLD)
 
-Date: 24.11.2022
-
-Requested KSM: 38 KSM 
+Requested KSM: To be calculated on day of submission
 
 ## Description
 This request is for funding maintenace of stakeworld RPC services for kusama and polkadot. We originally proposed it as a tip just like the [snapshot service](/Q3-setup-maintenance.md) which was also submitted as a tip (as adviced by the council) but since Gov2 became active switched it to a request in the "Infrastructure maintenance bounty". 
@@ -46,7 +44,7 @@ Hours are included at a 80 EUR/hour rate.
 | ------------          | -----------------------|
 | Maintenance           | 2 months x 4 h x 80 EUR = 640 EUR  |
 | Hosting		| 2 months x 140 EUR = 280 EUR |
-| TOTAL                 | EUR 920 / 0.9602 -> USD 958 [/25.23 (=EMA7)](https://kusama.subscan.io/tools/charts?type=price) = 38 KSM |
-| REQUEST		| 38 KSM |
+| TOTAL                 | EUR 920 |
+| REQUEST		| To be calculated on day of submission |
 
 For simplicity treasury requests for our services will only be done on kusama.
