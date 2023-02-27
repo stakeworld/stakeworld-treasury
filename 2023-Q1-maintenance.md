@@ -32,7 +32,7 @@ The RPC services are hosted on multiple dedicated servers on different locations
 
 The snapshot service is hosted on a dedicated server, with unlimited traffic and a 1 Gbit network link. Every day the databases are compressed and saved with an [open source crontab script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). Occasionaly we start with a freshly synced database to reduce disk space an prevent errors. The script also registers blockheight, full and compressed datasizes, creates a gnuplot image and puts it all on the [website](https://stakeworld.io/snapshot). 
 
-All servers are monitored with grafana and alert mechanisms are in place. We keep a [statuspage](https://stakeworld.statuspage.io/). The snapshort service sometimes has some maintenance for rebuilding snapshots, we had no outages on the rpc service. 
+All servers are monitored with grafana and alert mechanisms are in place. We keep a [statuspage](https://stakeworld.statuspage.io/). The snapshot service sometimes has some maintenance for rebuilding snapshots, we had no major outages on the rpc or snapshot service. 
 
 #### Metrics
 
