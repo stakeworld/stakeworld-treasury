@@ -36,14 +36,14 @@ All servers are monitored with grafana and alert mechanisms are in place. We kee
 
 #### Metrics
 
-* Snapshot service:
+##### Snapshot service:
 
 Excluding bots and our own servers below some statistics about the snapshot service starting from january 2023 untill now.
 
 ![snapusage](2023-Q1-maintenance-snapshot-usage.png)
 ![snapvisitors](2023-Q1-maintenance-snapshot-visitors.png)
 
-* Rpc:
+##### Rpc:
 
 Below some usage of our rpc service. Unfortunately older data usage was lost as a result of a changed retention policy in an updated prometheus binary. We are now using mimir as a database backend for data retention, so older data will stay available.
  
