@@ -62,15 +62,12 @@ This request is for 3 months of maintenance in Q1 2023.
 Hours are included at a 80 EUR/hour rate.
 
 | Item                  | Cost                   		|
-| ---                   | ---		                        |
 | **RPC nodes**		|			 		|
 | Maintenance           | 3 months x 5 h x 80 EUR = 1200 EUR  	|
 | Hosting		| 3 months x 560 EUR = 1680 EUR 	|
-| ---                   | ---		                        |
 | **Snapshot service**	|			 		|
 | Maintenance           | 3 months x 4 h x 80 EUR = 960 EUR  	|
 | Hosting               | 3 months x 160 EUR = 480 EUR 		|
-| ---                   | ---		                        |
 | TOTAL                 | EUR 4320 		 		|
 | REQUEST		| To be calculated on day of submission |
 
