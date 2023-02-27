@@ -32,7 +32,7 @@ The RPC services are hosted on multiple dedicated servers on different locations
 
 The snapshot service is hosted on a dedicated server, with unlimited traffic and a 1 Gbit network link. Every day the databases are compressed and saved with an [open source crontab script](https://github.com/stakeworld/stakeworld-website/blob/master/scripts/snapshot.sh). Occasionaly we start with a freshly synced database to reduce disk space an prevent errors. The script also registers blockheight, full and compressed datasizes, creates a gnuplot image and puts it all on the [website](https://stakeworld.io/snapshot). 
 
-All servers are monitored with grafana and alert mechanisms are in place. We keep a (statuspage)[https://stakeworld.statuspage.io/]. The snapshort service sometimes has some maintenance for rebuilding snapshots, we had no outages on the rpc service. 
+All servers are monitored with grafana and alert mechanisms are in place. We keep a [statuspage](https://stakeworld.statuspage.io/). The snapshort service sometimes has some maintenance for rebuilding snapshots, we had no outages on the rpc service. 
 
 #### Metrics
 
@@ -62,19 +62,16 @@ This request is for 3 months of maintenance in Q1 2023.
 Hours are included at a 80 EUR/hour rate.
 
 | Item                  | Cost                   		|
-| ------------          | -----------------------		|
-| RPC nodes		|			 		|
-| ------------          | -----------------------		|
+| ---                   | ---		                        |
+| **RPC nodes**		|			 		|
 | Maintenance           | 3 months x 5 h x 80 EUR = 1200 EUR  	|
 | Hosting		| 3 months x 560 EUR = 1680 EUR 	|
-| ------------          | -----------------------		|
-| Snapshot service	|			 		|
-| ------------          | -----------------------		|
+| ---                   | ---		                        |
+| **Snapshot service**	|			 		|
 | Maintenance           | 3 months x 4 h x 80 EUR = 960 EUR  	|
 | Hosting               | 3 months x 160 EUR = 480 EUR 		|
-| ------------          | -----------------------		|
+| ---                   | ---		                        |
 | TOTAL                 | EUR 4320 		 		|
 | REQUEST		| To be calculated on day of submission |
-| ------------          | -----------------------		|
 
 For simplicity treasury requests for our services will only be done on kusama.
