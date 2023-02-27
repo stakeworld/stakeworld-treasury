@@ -36,17 +36,17 @@ All servers are monitored with grafana and alert mechanisms are in place. We kee
 
 #### Metrics
 
-##### Snapshot service:
+##### Snapshot service
 
 Excluding bots and our own servers below some statistics about the snapshot service starting from january 2023 untill now.
 
 ![snapusage](2023-Q1-maintenance-snapshot-usage.png)
 ![snapvisitors](2023-Q1-maintenance-snapshot-visitors.png)
 
-##### Rpc:
+##### Rpc
 
 Below some usage of our rpc service. Unfortunately older data usage was lost as a result of a changed retention policy in an updated prometheus binary. We are now using mimir as a database backend for data retention, so older data will stay available.
- 
+
 ![rpcseconds](2023-Q1-maintenance-rpc-second.png)
 ![rpcday](2023-Q1-maintenance-rpc-day.png)
  
@@ -62,10 +62,10 @@ This request is for 3 months of maintenance in Q1 2023.
 Hours are included at a 80 EUR/hour rate.
 
 | Item                  | Cost                   		|
-| **RPC nodes**		|			 		|
+| RPC nodes		|			 		|
 | Maintenance           | 3 months x 5 h x 80 EUR = 1200 EUR  	|
 | Hosting		| 3 months x 560 EUR = 1680 EUR 	|
-| **Snapshot service**	|			 		|
+| Snapshot service	|			 		|
 | Maintenance           | 3 months x 4 h x 80 EUR = 960 EUR  	|
 | Hosting               | 3 months x 160 EUR = 480 EUR 		|
 | TOTAL                 | EUR 4320 		 		|
