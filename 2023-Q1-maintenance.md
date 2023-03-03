@@ -9,7 +9,7 @@ Requested KSM: To be calculated on day of submission
 This request is for funding maintenace of:
 
 * RPC services for kusama and polkadot
-* Snapshot services for kusaama and polkadot
+* Snapshot services for kusama and polkadot
 
 ## Context/problem/solution
 
