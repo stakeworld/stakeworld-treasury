@@ -45,7 +45,7 @@ Excluding bots and our own servers below some statistics about the snapshot serv
 
 ##### Rpc
 
-Below some usage of our rpc service. Unfortunately older data usage was lost as a result of a changed retention policy in an updated prometheus binary. We are now using mimir as a database backend for data retention, so older data will stay available.
+Below some usage of our rpc service. Unfortunately older data usage was lost as a result of a changed retention policy in an updated prometheus binary. We are now mirroring our data to a secondary prometheus instance with explicit long retention so older data will stay available. Live data can be seen on our [webpage](https://stakeworld.io/docs/rpc#live-stakeworld-rpc-data).
 
 ![rpcseconds](2023-Q1-maintenance-rpc-second.png)
 ![rpcday](2023-Q1-maintenance-rpc-day.png)
