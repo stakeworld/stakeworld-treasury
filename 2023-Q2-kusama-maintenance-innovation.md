@@ -2,7 +2,7 @@
 
 Proponent: Et9M3rrA7H2kHQEGRXHxufcp9HTEmFirMWtKHvjoJ85r1C9 (identity: Stakeworld.io)
 
-Requested KSM: 668
+Requested KSM: 665
 
 ## Description
 
@@ -65,12 +65,14 @@ Requests on the kusama chain:
 
 #### Publicity
 
-There is exposure through the kusama and polkadot validator pages on element and some traffic from google search. Polkadot, kusama and westend RPC's are included on polkadot.js so generate a lot of traffic from there. .
+There is exposure through the kusama and polkadot validator pages on element and some traffic from search engines. Polkadot, kusama and westend RPC's are included on polkadot.js which generates most of the RPC traffic.
 
 ## Financial
 
 ### Expenses
 This request is for 3 months of maintenance in Q2 2023 and for the setup of some services.
+
+Hours are included at a 85 EUR/hour rate.
 
 | Item                                  | Cost                   		|
 | ------------                          | -----------------------               |
@@ -81,11 +83,11 @@ This request is for 3 months of maintenance in Q2 2023 and for the setup of some
 | Dedicated nodes westend               | 560 EUR 	|
 | **Snapshot service**	                |			 		|
 | Maintenance                           | 3 months x 4 h x 85 EUR = 1020 EUR  	|
-| Hosting                               | 800 EUR 		|
+| Hosting                               | 750 EUR 		|
 | **Bootnodes**	                        |			 		|
 | Setup, testing, updating wiki         | 10 h x 85 EUR = 850 EUR                       |
 | Maintenance                           | 3 months x 3 h x 85 EUR = 765 EUR  	|
-| Dedicated nodes kusama and westend    | 600 EUR 		|
-| TOTAL                                 | 16555  EUR	 		|
-| REQUEST		                | 16555 EUR = 18160 USD / 27.16 ([EMA7](https://kusama.subscan.io/tools/charts?type=price)) = 668 KSM  |
+| Dedicated nodes kusama and westend    | 560 EUR 		|
+| TOTAL                                 | 16465 EUR	 		|
+| REQUEST		                | 16465 EUR = 18086 USD / 27.16 ([EMA7](https://kusama.subscan.io/tools/charts?type=price)) = 665 KSM  |
 
