@@ -1,6 +1,7 @@
 # STAKEWORLD Treasury
 Treasury proposals of STAKEWORLD:
 ## 2023
+* [2023 Q3 Polkadot - OpenGov retroactive Proposal](2023-Q3-polkadot.md) (running)
 * [2023 Q3 Kusama - OpenGov retroactive Proposal](2023-Q3-kusama-2.md) (running)
 * [2023 Q3 Kusama - OpenGov proactive Proposal](2023-Q3-kusama.md) (failed)
 * [2023 Q2 Polkadot Maintenance and innovation - OpenGov Proposal](2023-Q2-polkadot.md)
